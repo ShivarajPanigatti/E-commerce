@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+
+.nav-logo  {
+    height: 60px;
+    width: 80px;
+}
+
+.logo {
+    
+   background-image: url("images/e-logo.png");
+   background-color: #f1f1f1;
+    background-size: cover;
+    height: 50px;
+    padding-left: 40px;
+  
+   
+   
+}
+
+.border{
+    color: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+.contact-us{
+    color: white;
+    
+    
+}
+
+.signin{
+    color: white;
+   
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 625px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+/* .search-select{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: null;
+} */
+.search-input{
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver  ;
+    border-top-right-radius: 4px;
+    border-radius: 4px;
+    color: black;
+}
+
+.cart-logo i{
+   color: white;
+   display: flex;
+   font-size: 25px;
+   
+}
+
+.signup{
+    color: white;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #0f1111;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #031003;}
+
+
+  .hero{
+    background-image: url("flip5.webp");
+    background-size: cover;
+    /* margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    
+    height: 700px;
+    /* display: flex; */
+  }
+  
+
+  .flip{
+    height: 50px;
+    color: black;
+    display: flex;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+    
+  }
+ 
+  .line-space{
+    margin-bottom: 30px;
+  }
+
+  .line-space2{
+    margin-left: 70px;
+  }
+  .hero-message{
+    background-color: rgb(68, 67, 67);
+    color: rgb(255, 255, 255);
+    /* margin-top: 10px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* 
+  .hero1{
+    background-image:url("BigTV_D.webp") ;
+    background-size: cover;
+    height: 700px;
+    margin-top: 10px;
+  }
+
+  .hero3{
+    background-image: url("Sale_KV_MO.webp");
+    background-size: cover;
+    height: 700px;
+    margin-top: 10px;
+  } */
+  
+  .footer{
+	  height: 30px;
+	  width: 100%;
+	  background-color: rgb(192, 192, 192);
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  
+	  
+  }
+  
+  .container-text-center{
+	height: 40px;
+	display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
